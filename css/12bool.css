@@ -1,6 +1,6 @@
 /* Contenitore base */
 .container{
-  max-width: 1170px;
+  max-width: 100vh;
   margin-left: auto;
   margin-right: auto;
 }
