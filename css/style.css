@@ -4,13 +4,23 @@
 	box-sizing: border-box;
 }
 
-.container {
-	border: 2px solid gold;
+h3 {
+	line-height: 150px;
 }
 
 [class*="col-"] {
 	background-color: #FFBECA;
-	height: 150px;
+	height: 100%;
 	border: 1px solid grey;
 	text-align: center;
+}
+
+
+.box {
+	padding: 10px;
+}
+
+.box [class*="col-"]  {
+	background-color: #F37D80;
+	border: 1px solid white;
 }
